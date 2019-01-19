@@ -1,0 +1,56 @@
+﻿.sayfa{
+  width: 1000px;height: 700px;
+  background: #fff;
+}
+.banner{
+  width: 1000px;height: 100px;
+  background: #ffbb00;
+}
+.logo{
+  width: 100px;height: 100px;
+  margin-left: 50px;background: url(logo2.jpg)
+}
+.alt{
+  width: 1000px;height: 100px;
+  background: #333;
+}
+.altyazıkutusu{
+  width: 791px;height: 80px;
+  color: #666;margin-left: 20px;
+  float: left;margin-top: 10px;
+}
+.ustnav{
+  width: 1000px;height: 50px;
+  background: #333;
+}
+.sosyal{
+  width: 149px;height: 47px;
+  float: right;margin-top: 20px;
+  margin-right: 20px;margin-left: 20px;
+}
+.menu{
+  width: auto;height: 50px;
+}
+.menu ul{
+  margin: 0;padding: 0;
+  list-style: none;
+}
+.menu ul li{
+  float: left;position: relative;
+}
+.menu ul li a{
+display: block;width: 120px;
+;background: #333;text-align: center;
+color: #fff;font: 13px tahoma;
+text-decoration: none;padding: 15px;
+}
+.menu ul li a:hover{
+  color: #fff;background: #333;
+}
+.menu ul li ul{
+  display: none;position: absolute;
+  left: 0;top: 34px;
+}
+.menu ul li:hover ul{
+  display: block;
+}

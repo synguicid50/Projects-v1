@@ -1,0 +1,67 @@
+.border{
+  width: 1000px;height: auto;
+  float: left;
+}
+.banner{
+  width: 1000px;height: 100px;
+  background: #001433;float: left;
+}
+.bannersentence{
+  width: 700px;height: auto;
+  color: #eee;text-align: center;
+  margin: 20px auto;font: 50px tahoma;
+}
+.logo{
+  width: 100px;height: 100px;
+  float: left;margin-left: 30px;
+}
+.social{
+  width: 150px;height: 50px;
+  float: right;margin: 20px 20px 0 0;
+}
+.nav{
+  width: 1000px;height: 49px;
+  background: #444;float: left;
+}
+.nav ul{
+  margin: 0;padding: 0;
+  list-style: none;
+}
+.nav ul li{
+  float: left;position: relative;
+}
+.nav ul li a{
+  display: block;width: 120px;
+  height: 35px;text-align: center;
+  color: #eee;text-decoration: none;
+  font: 14px tahoma;padding-top: 14px;
+}
+.nav ul li a:hover{
+  background: #222;
+}
+.photo1{
+  width: 1000px;height: 472px;
+  float: left;background: url(view.jpg);
+}
+.photo2{
+  width: 1000px;height: 539px;
+  float: left;background: url(bridge.jpg);
+}
+.photo3{
+  width: 1000px;height: 500px;
+  float: left;background: url(view2.jpg);
+}
+.main{
+  width: 1000px;height: 700px;
+  background: #fefefe;float: left;
+}
+.bottom{
+  width: 1000px;height: 150px;
+  background: #333;float: left;
+}
+.bottomsentence{
+  width: 650px;height: 60px;
+  color: #eee;font-style: 14px tahoma;
+  margin: auto;text-align: center;
+  padding-top: 40px;margin-top: 25px;
+}

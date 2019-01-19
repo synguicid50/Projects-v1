@@ -1,0 +1,58 @@
+.sablon{width: 740px;height:auto;
+margin: 30px auto;
+}
+.logo{width: 100px;height: 100px;
+float: left;
+}
+.banner{width: 630px;height: 60px;
+float: left;margin-left: 10px;
+background: #003466;border-radius: 10px;
+text-align: center;color: #fff;font: bold 15px tahoma;
+padding-top: 40px;
+}
+.menu{
+  width: 580px;height: 47px;
+  float: left;margin-top: 10px;
+  background: #00468c;
+}
+.sosyal{
+  width: 150px;height: 47px;
+  float: left;margin: 10px 0 0 10px;
+}
+.ust{width:740px ;height: 350px;
+  margin-top: 10px;float: left;
+  margin-bottom: 10px;
+  background: #016dd9;border-radius: 10px;
+  color: #fff;font: 15px tahoma;
+}
+.alt1{width: 240px;height: 240px;
+  float: left;background: #4da6ff;
+  border-radius: 10px;
+}
+.alt2{width: 240px;height: 240px;
+  float: left;margin-left: 10px;
+  background: #99cdff;border-radius: 10px;
+}
+.alt3{width: 240px;height: 240px;
+  float: left;margin-left: 10px;
+  background: #bedffe;border-radius: 10px;
+}
+.enalt{width: 740px;height: 90px;
+  float: left;margin-top: 10px;
+  background: #bfeefe;border-radius: 10px;
+}
+.menu ul{margin:0;padding:0;
+  list-style: none;
+}
+.menu ul li{float: left;
+}
+.menu ul li a{display: block;
+  width: 145px;height: 32px;
+  text-decoration: none;
+  text-align: center;font: 13px tahoma;
+  color:#fff;padding-top: 15px;
+}
+.menu ul li a:hover{text-decoration: underline;
+  background: #06f;
+
+}

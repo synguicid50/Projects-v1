@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>css practice</title>
+<style type="text/css">
+.apartman{width:350px;height:auto;margin:70px auto;}
+.baca{width:25px;height:50px;background:#960;margin:0 0 0 250px;}
+.cati{width:250px;height:250px;background:#930;transform:rotate(45deg);margin:-50px 0 0 50px;z-index:1;position:relative;}
+.govde{width:330px;height:470px;background:#0cf;margin:-125px 0 0 0;z-index:2;position:relative;padding:30px 0 0 20px;}
+.p1{width:58px;height:58px;background:#ff9;border:1px solid #000;float:left;margin:0 0 65px 0;}
+.p2{width:58px;height:58px;background:#ff9;border:1px solid #000;float:left;margin:0 0 65px 65px;}
+.p3{width:58px;height:58px;background:#ff9;border:1px solid #000;float:left;margin:0 0 65px 65px;}
+.p4{width:58px;height:58px;background:#ff9;border:1px solid #000;float:left;}
+.p5{width:58px;height:58px;background:#ff9;border:1px solid #000;float:left;margin:0 0 0 50px;}
+.solperde{width: 23px;height: 56px;background: #fff;border-radius: 0 0 20px 0;border-right: 1px solid #000;border-bottom: 1px solid #000;float: left;}
+.sagperde{width: 23px;height: 56px;background: #fff;border-radius: 0 0 0 20px;border-left: 1px solid #000;border-bottom: 1px solid #000;float: left;margin:0 0 0 10px;}
+.kapitabela{width: 90px;height: 152px;float:left;margin:-57px 0 0 50px;}
+.tabela{width: 88px;height: 25px;background: #fff;border:1px solid #000;font: 11px tahoma;text-align: center;}
+.kapi{width: 86px;height: 118px;background: #330;border-left: 2px solid #000;border-right: 2px solid #000;border-top: 2px solid #000;margin: 5px 0 0 0;}
+.kapikolu{width: 15px;height: 3px;background: #000;margin:50px 0 0 15px;}
+
+.stadyum{width: 700px;height: 865px;border-left: 120px solid #ddd;border-right: 120px solid #ddd;border-top:120px solid #ddd;border-bottom: 120px solid #58f55c;border-radius: 200px;margin:10px auto;background: #58f55c;}
+.aciktribun{width: 700px;height: 865px;background: #58f55c;border-radius: 150px 150px 0 0;}
+.sahakenari{width: 550px;height: 670px;background: #360;margin:100px auto;border-radius: 100px;padding-top: 70px;}
+.saha{width:400px ;height:600px ;background:#0c0 ;margin: 0 auto;border: 1px solid #fff;}
+.ustcezasahasi{width: 250px;height: 100px;border-left: 1px solid #fff;border-right: 1px solid #fff;border-bottom:1px solid #fff; margin: 0 auto;}
+.ustaltipas{width: 120px;height: 50px;border-left: 1px solid #fff;border-right: 1px solid #fff;border-bottom:1px solid #fff;margin: 0 auto;}
+.ustyay{width:100px ;height:40px ;border-left: 1px solid #fff;border-right: 1px solid #fff;border-bottom:1px solid #fff;margin: 0 auto;border-radius:0 0 55px 55px}
+.ortacizgi{width:400px ;height: 1px;background: #fff;margin: 150px 0 0 0;}
+.ortadaire{width:120px ;height: 120px;border: 1px solid #fff;border-radius: 60px;margin: -60px auto 0 auto;}
+.altyay{width:100px ;height:40px ;border-left: 1px solid #fff;border-right: 1px solid #fff;border-top:1px solid #fff;margin:103px auto 0 auto;border-radius:55px 55px 0 0}
+.altcezasahasi{width: 250px;height: 100px;border-left: 1px solid #fff;border-right: 1px solid #fff;border-top:1px solid #fff; margin: 0 auto;}
+.altaltipas{width: 120px;height: 50px;border-left: 1px solid #fff;border-right: 1px solid #fff;border-top:1px solid #fff;margin: 50px auto 0 auto;}
+
+.tvdis{width: 760px;height: 470px;background:#000;margin: 50px auto;border-radius: 4px;padding: 20px;}
+.tvic{width: 760px;height: 460px;background: #fff;}
+.gokyuzu{width: 760px;height:210px ;background: #c4f4fd;padding-top: 20px;}
+.gunes{width:60px ;height:60px ;background:#ff9944 ;border-radius:30px;margin: 0 auto;box-shadow:5px 5px 50px #eda23d }
+.d1{width: 300px;height:160px ;background: #0ff21e;float: left;border-radius: 0 160% 0 0;margin-top: -110px;position: relative;z-index: 2;}
+.d2{width: 300px;height:140px ;background: #0fd21e;float: left;border-radius: 0 160% 0 0;margin-top: -90px;margin-left: -150px;position: relative;z-index:1; }
+.d3{width: 360px;height:140px ;background: #0fc21e;float: left;border-radius: 160% 0 0 0;margin-top: -90px;margin-left:-50px ;position:relative;z-index:1; }
+.otoban{width:760px ;height:77px ;background:#666 ;border-top: 4px solid #ffc;border-bottom: 4px solid #ffc;float: left;}
+.refuj{width: 760px;height: 10px;background: #743e2c;float: left;}
+.araba1{width: 40px;height:25px;float: right;margin: 5px 10px 0 0;}
+.araba2{width: 40px;height:25px;float: left;margin: 5px 0 0 100px;}
+.araba3{width: 40px;height:25px;margin: 5px -50px 0 10px;float: left;}
+.araba4{width: 40px;height:25px;margin: 5px 50px 0 0;float: right;}
+.cam{width: 30px;height:10px ;background:#fff; border-radius:10px 10px 0 0;margin: 0 auto;}
+.kaporta1{width:40px ;height:10px ;background:#00c;border-radius: 2px;}
+.kaporta2{width:40px ;height:10px ;background:#0c0;border-radius: 2px;}
+.kaporta3{width:40px ;height:10px ;background:#c00;border-radius: 2px;}
+.kaporta4{width:40px ;height:10px ;background:#0ff;border-radius: 2px;}
+.kaporta5{width:40px ;height:10px ;background:#f9c;border-radius: 2px;}
+.kaporta6{width:40px ;height:10px ;background:#c63;border-radius: 2px;}
+.lastik{width:10px ;height:10px ;background:#000;border-radius: 5px;float: left;margin-top: -5px;margin-left: 7px;}
+.serit{width:100px ;height:8px; background: #fff;margin-left: 40px;float: left;margin-top: 35px}
+
+
+
+
+</style>
+  </head>
+  <body>
+    <!--start of "apartman-->
+<div class="apartman">
+<div class="baca"></div>
+<div class="cati"></div>
+<div class="govde">
+<div class="p1">
+<div class="solperde"></div>
+    <div class="sagperde"></div>
+</div>
+<div class="p2"><div class="solperde"></div>
+    <div class="sagperde"></div></div>
+<div class="p3"><div class="solperde"></div>
+    <div class="sagperde"></div></div>
+<div class="p1"><div class="solperde"></div>
+    <div class="sagperde"></div></div>
+<div class="p2"><div class="solperde"></div>
+    <div class="sagperde"></div></div>
+<div class="p3"><div class="solperde"></div>
+    <div class="sagperde"></div></div>
+<div class="p1"><div class="solperde"></div>
+    <div class="sagperde"></div></div>
+<div class="p2"><div class="solperde"></div>
+    <div class="sagperde"></div></div>
+<div class="p3"><div class="solperde"></div>
+    <div class="sagperde"></div></div>
+<div class="p4"><div class="solperde"></div>
+    <div class="sagperde"></div></div>
+<div class="kapitabela">
+<div class="tabela">
+  Apartman
+  No:30
+</div>
+<div class="kapi">
+<div class="kapikolu">
+</div>
+</div>
+</div>
+<div class="p5">
+  <div class="solperde"></div>
+      <div class="sagperde"></div>
+  </div>
+</div>
+
+</div>
+<!--end of "apartman"-->
+<br><br><br><br>
+<!--start of "stadyum"-->
+<div class="stadyum">
+<div class="aciktribun">
+<div class="sahakenari">
+<div class="saha">
+<div class="ustcezasahasi">
+<div class="ustaltipas">
+</div>
+</div>
+<div class="ustyay">
+</div>
+<div class="ortacizgi">
+</div>
+<div class="ortadaire">
+</div>
+<div class="altyay">
+</div>
+<div class="altcezasahasi">
+<div class="altaltipas">
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--end of "stadyum"-->
+<br><br><br><br>
+<!--start of "manzara"-->
+<div class="tvdis">
+<div class="tvic">
+<div class="gokyuzu">
+<div class="gunes">
+</div>
+</div>
+<div class="d1"></div>
+<div class="d2"></div>
+<div class="d3"></div>
+<div class="otoban">
+
+<div class="araba1">
+<div class="cam"></div>
+<div class="kaporta1"></div>
+<div class="lastik"></div>
+<div class="lastik"></div>
+</div>
+
+<div class="serit"></div><div class="serit"></div><div class="serit"></div><div class="serit"></div><div class="serit"></div>
+
+<div class="araba2">
+<div class="cam"></div>
+<div class="kaporta2"></div>
+<div class="lastik"></div>
+<div class="lastik"></div>
+</div>
+
+<div class="araba2">
+<div class="cam"></div>
+<div class="kaporta3"></div>
+<div class="lastik"></div>
+<div class="lastik"></div>
+</div>
+
+</div>
+<div class="refuj"></div>
+<div class="otoban">
+
+  <div class="araba3">
+  <div class="cam"></div>
+  <div class="kaporta4"></div>
+  <div class="lastik"></div>
+  <div class="lastik"></div>
+  </div>
+
+<div class="serit"></div><div class="serit"></div><div class="serit"></div><div class="serit"></div><div class="serit"></div>
+
+<div class="araba4">
+<div class="cam"></div>
+<div class="kaporta5"></div>
+<div class="lastik"></div>
+<div class="lastik"></div>
+</div>
+
+<div class="araba4">
+<div class="cam"></div>
+<div class="kaporta6"></div>
+<div class="lastik"></div>
+<div class="lastik"></div>
+</div>
+
+</div>
+</div>
+</div>
+<!--end of "manzara"-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,123 @@
+header{
+  width: 1000px;height: 100px;
+  background: #595959;
+}
+picture{
+  margin-left: 30px;
+}
+nav{
+  width: 1000px;height: 50px;
+  background: #262626;
+}
+nav ul{
+  margin: 0;padding: 0;
+  list-style: none;
+}
+nav ul li{
+  float: left;position: relative;
+}
+nav ul li a{
+  display: block;text-align: center;
+  width: 120px;height: 36px;
+  color: #eee;text-decoration: none;
+  font: 18px tahoma;padding-top: 14px;
+  font-family: sorts mill goudy;
+}
+nav ul li a:hover{
+  background: #3a3a3a;color: #fff;
+}
+.img1{
+  width: 1000px;height: 665px;
+  background: url(coffee1.jpg);
+}
+.article1{
+  width: 400px;height: 155px;
+  text-align: center;margin: auto;
+  font: 65px tahoma;color: #fff;
+  margin: 255px 300px;position: absolute;
+  font-family: sorts mill goudy;
+}
+.top{
+  width: 1000px;height: auto;
+}
+.p1{
+  text-align: center;font: 20px tahoma;
+  color: #aaa;font-family: sorts mill goudy;
+}
+.opacity1{
+  width: 1000px;height: 665px;
+  background: #000;opacity: 0.3;
+  position: absolute;
+}
+.top1{
+  width: 900px;height: auto;
+  margin: 0 auto;
+}
+.img2{
+  width: 1000px;height: 623px;
+  background: url(coffee2.jpg);
+}
+.opacity2{
+  width: 1000px;height: 623px;
+  background: #000;opacity: 0.3;
+  position: absolute;
+}
+.article2{
+  width: 1000px;height: 81px;
+  text-align: center;margin: auto;
+  font: 65px tahoma;color: #fff;
+  margin: 271px auto;position: absolute;
+  font-family: sorts mill goudy;
+}
+.mid{
+  width: 1000px;height: auto;
+}
+.mid1{
+  width: 900px;height: auto;
+  margin: 0 auto;
+}
+.img3{
+  width: 1000px;height: 582px;
+  background: url(coffee3.jpg);
+}
+.opacity3{
+  width: 1000px;height: 582px;
+  background: #000;opacity: 0.3;
+  position: absolute;
+}
+.article3{
+  width: 1000px;height: 80px;
+  text-align: center;margin: auto;
+  font: 65px tahoma;color: #fff;
+  margin: 251px auto;position: absolute;
+  font-family: sorts mill goudy;
+}
+.article4{
+  width: 1000px;height: 30px;
+  text-align: center;margin: auto;
+  font: 20px tahoma;color: #fff;
+  margin: 331px auto;position: absolute;
+  font-family: sorts mill goudy;
+}
+footer{
+  width: 1000px;height: 200px;
+  background: #262626;
+}
+.footerbox{
+  width: 200px;height: 130px;
+  margin: 0 auto;text-align: center;
+  color: #aaa;font: 14px tahoma;
+  padding-top: 70px;font-family: sorts mill goudy;
+}
+.social{
+  width: 160px;height: 50px;
+  float: left;margin: 30px 20px 0 0;
+  float: right;
+}
+.bottom{
+  width: 1000px;height: auto;
+}
+.bottom1{
+  width: 140px;height: auto;
+  margin: 0 auto;
+}
